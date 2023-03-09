@@ -108,7 +108,7 @@ export default function Home() {
               <AiFillGithub className='fill-black dark:fill-white'/>
             </a>
           </div>
-          <div className='relative bg-gradient-to-b from-orange-400 rounded-t-xl mx-auto w-80 h-60 mt-14'>
+          <div className='relative bg-gradient-to-b from-orange-400 rounded-t-xl mx-auto w-80 h-80 mt-14'>
             <Image src={profilepic}  objectFit='cover' />
           </div>
         </section>
