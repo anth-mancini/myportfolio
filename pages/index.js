@@ -83,7 +83,7 @@ export default function Home() {
             <h1 className="text-xl font-extralight  text-black dark:text-white">Developed By Anthony Mancini</h1>
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl fill-gray-900 dark:fill-white"/></li>
-              <li><a className="bg-gradient-to-r from-green-700 to-green-500  text-white px-4 py-2 rounded-md ml-8"href="./MyResume.pdf">Resume</a></li>
+              <li><a className="bg-gradient-to-r from-green-700 to-green-500  text-white px-4 py-2 rounded-md ml-8"href="./ManciniResume.pdf">Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10 font-mono'>
@@ -108,7 +108,7 @@ export default function Home() {
               <AiFillGithub className='fill-black dark:fill-white'/>
             </a>
           </div>
-          <div className='relative bg-gradient-to-b from-orange-400 rounded-t-xl mx-auto w-80 h-80 mt-14'>
+          <div className='relative bg-gradient-to-b from-orange-400 rounded-t-xl mx-auto w-80 h-60 mt-14'>
             <Image src={profilepic}  objectFit='cover' />
           </div>
         </section>
