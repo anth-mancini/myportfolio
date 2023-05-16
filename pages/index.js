@@ -49,12 +49,12 @@ export default function Home() {
             <br></br>
             <font size="+2"> Web: </font>
             <br></br>
-            <font size="+1"> HTML, CSS, Bootstrap, ReactJs, Tailwind, JavaScript </font>
+            <font size="+1"> HTML, CSS, Bootstrap, ReactJs, JavaScript </font>
             <br></br>
             <br></br>
             <font size="+2"> Technologies: </font>
             <br></br>
-            <font size="+1"> Git, Linux </font>
+            <font size="+1"> Git, Linux, Angular Boostrap, NodeJs, MongoDB, Hadoop </font>
             </font>
     },
     {
@@ -80,22 +80,22 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 h-full w-full dark:bg-gray-900">
         <section className="min-h-screen dark:bg-gray-900">
           <nav className="py-10 mb-12 flex justify-between dark: text-white dark:bg-gray-900">
-            <h1 className="text-xl font-extralight  text-black dark:text-white">Developed By Anthony Mancini</h1>
+            <h1 className="text-xl font-extralight  text-black dark:text-white">My Portfolio</h1>
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl fill-gray-900 dark:fill-white"/></li>
-              <li><a className="bg-gradient-to-r from-green-700 to-green-500  text-white px-4 py-2 rounded-md ml-8"href="./ManciniResume.pdf">Resume</a></li>
+              <li><a className="bg-gradient-to-r from-green-700 to-green-500  text-white px-4 py-2 rounded-md ml-8"href="./Resume23.pdf">Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10 font-mono'>
             <h2 className='text-4xl py-2 text-orange-400 font-medium '>Anthony Mancini</h2>
-            <h3 className='text-2xl py-2 text-gray-900 dark:text-yellow-100'>Software Developer.</h3>
+            <h3 className='text-2xl py-2 text-gray-900 dark:text-yellow-100'>Software Engineer/Developer.</h3>
             <p className='text-md py-5 leading-5 text-zinc-700 dark:text-gray-400 '>Computer Science student experienced in software developing with 4+ years in the automotive industry. Highly competitive, passionate, organized employee equipped
               for fast-paced work and determined to achieve success through attention to detail and effecient results. Seeking to leverage my skills while utilizing a broad educational background 
-              with excellent analytical, technical, and programming skills to thrive as a software developer. </p>
+              with excellent analytical, technical, and programming skills to thrive as a software engineer. </p>
           </div> 
           <div className='flex justify-center'>
             <a href="mailto: mancini5@uwindsor.ca">
-            <button class=" bg-green-500 hover:bg-green-600 text-black  flex-row font-bold py-2 px-6 rounded-full">
+            <button class=" bg-green-500 hover:bg-green-600 text-black flex-row font-bold py-2 px-6 rounded-full">
               Lets Chat!
             </button>
             </a>
@@ -129,7 +129,7 @@ export default function Home() {
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">Resume</a>
+            <a href="./Resume23.pdf" class="mr-4 hover:underline md:mr-6 ">Resume</a>
         </li>
         <li>
             <a href="https://www.linkedin.com/in/anthony-mancini-b366701b5/" class="mr-4 hover:underline md:mr-6">LinkedIn</a>
