@@ -118,7 +118,7 @@ export default function Home() {
     <h1 className='text-4xl py-2 text-gray-900 dark:text-yellow-100'>Projects.</h1>
 
   </div>
-  <div class="grid grid-cols-3 mb-10 ml-20 gap-20">
+  <div class="grid lg:grid-cols-3 mb-10 ml-20 gap-12 ">
   <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="https://gearheadmarketplace.herokuapp.com/">
         <img class="rounded-t-lg" src="/gearheadmarketplaceimage.jpg" alt="" />
@@ -137,7 +137,7 @@ export default function Home() {
 
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <video src='cyberfpsvid.mkv' autoPlay controls></video>
+        <video src='cyberfpsvid.mp4' autoPlay controls></video>
     </a>
     <div class="p-5">
         <a href="https://github.com/anth-mancini/CyberFPS">
